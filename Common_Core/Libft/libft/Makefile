@@ -81,7 +81,7 @@ CFLAGS  = -Wall -Werror -Wextra -O3
 RM      = rm -f
 
 # Color Codes
-PINK = \033[0;35m
+PINK = \033[38;2;255;105;180m
 RESET = \033[0m
 
 ##############################################

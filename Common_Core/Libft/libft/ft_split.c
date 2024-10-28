@@ -63,6 +63,13 @@ static char	*ft_alloc_word(const char *start, size_t len)
 	return (word);
 }
 
+/**
+ * Frees all previously allocated functions from an array
+ * and the array itself.
+ *
+ * @param split Array of strings to free.
+ * @param i Current index on the array
+ */
 static void	ft_free_split(char **split, int i)
 {
 	while (i)
