@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/joao-alm/42/Common_Core/Libft/cmake-build-debug"
+			"value" : "/home/joao-alm/42_School/Common_Core/Libft/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/joao-alm/42/Common_Core/Libft/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/joao-alm/42_School/Common_Core/Libft/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/joao-alm/42/Common_Core/Libft"
+			"value" : "/home/joao-alm/42_School/Common_Core/Libft"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1023,7 +1023,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/joao-alm/42/Common_Core/Libft/cmake-build-debug"
+			"value" : "/home/joao-alm/42_School/Common_Core/Libft/cmake-build-debug"
 		},
 		{
 			"name" : "Libft_IS_TOP_LEVEL",
@@ -1047,7 +1047,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/joao-alm/42/Common_Core/Libft"
+			"value" : "/home/joao-alm/42_School/Common_Core/Libft"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
