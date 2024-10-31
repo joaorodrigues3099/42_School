@@ -56,9 +56,12 @@ static char	*ft_alloc_word(const char *start, size_t len)
 	word = (char *)malloc((len + 1) * sizeof(char));
 	if (!word)
 		return (NULL);
-	i = -1;
-	while (++i < len)
+	i = 0;
+	while (i < len)
+	{
 		word[i] = start[i];
+		i++;
+	}
 	word[i] = '\0';
 	return (word);
 }
@@ -72,7 +75,7 @@ static char	*ft_alloc_word(const char *start, size_t len)
  */
 static void	ft_free_split(char **split, int i)
 {
-	while (i)
+	while (i >= 0)
 	{
 		free(split[i]);
 		i--;
@@ -138,12 +141,13 @@ char	**ft_split(const char *s, char c)
 		return (NULL);
 	return (ft_fill_split(split, s, c));
 }
-
 /*
+#include <stdio.h>
+
 int	main(void)
 {
 	char	**split;
-	size_t	n_strings;
+	int	n_strings;
 
 	n_strings = 2;
 	split = ft_split(" hello world ", ' ');

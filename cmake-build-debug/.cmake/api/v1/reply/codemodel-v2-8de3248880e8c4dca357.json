@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "42_School",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Libft::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Libft-Debug-f0bc28f462b28bb7260d.json",
+					"name" : "Libft",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Noob_Printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Noob_Printf-Debug-30f9a37b4a41acfd77e0.json",
+					"name" : "Noob_Printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Printf-Debug-4aa83b5c22bb0ba7af11.json",
+					"name" : "Printf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joao-alm/42_School/cmake-build-debug",
+		"source" : "/home/joao-alm/42_School"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

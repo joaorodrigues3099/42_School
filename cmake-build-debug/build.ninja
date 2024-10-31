@@ -41,38 +41,370 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/joao-alm/42_School/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 42_School
+# Object build statements for SHARED_LIBRARY target Libft
 
 
 #############################################
-# Order-only phony target for 42_School
+# Order-only phony target for Libft
 
-build cmake_object_order_depends_target_42_School: phony || .
+build cmake_object_order_depends_target_Libft: phony || .
 
-build CMakeFiles/42_School.dir/main.c.o: C_COMPILER__42_School_unscanned_Debug /home/joao-alm/42_School/main.c || cmake_object_order_depends_target_42_School
-  DEP_FILE = CMakeFiles/42_School.dir/main.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/42_School.dir
-  OBJECT_FILE_DIR = CMakeFiles/42_School.dir
-  TARGET_COMPILE_PDB = CMakeFiles/42_School.dir/
-  TARGET_PDB = 42_School.pdb
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_atoi.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_atoi.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_atoi.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_bzero.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_bzero.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_bzero.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_calloc.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_calloc.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_calloc.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isalnum.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_isalnum.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isalnum.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isalpha.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_isalpha.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isalpha.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isascii.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_isascii.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isascii.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isdigit.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_isdigit.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isdigit.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isprint.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_isprint.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isprint.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_itoa.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_itoa.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_itoa.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstadd_back_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstadd_back_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstadd_back_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstadd_front_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstadd_front_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstadd_front_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstclear_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstclear_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstclear_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstdelone_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstdelone_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstdelone_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstiter_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstiter_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstiter_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstlast_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstlast_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstlast_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstmap_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstmap_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstmap_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstnew_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstnew_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstnew_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstsize_bonus.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_lstsize_bonus.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstsize_bonus.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memchr.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_memchr.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memchr.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memcmp.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_memcmp.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memcmp.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memcpy.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_memcpy.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memcpy.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memmove.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_memmove.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memmove.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memset.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_memset.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memset.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putchar_fd.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_putchar_fd.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putchar_fd.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putendl_fd.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_putendl_fd.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putendl_fd.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putnbr_fd.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_putnbr_fd.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putnbr_fd.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putstr_fd.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_putstr_fd.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putstr_fd.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_split.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_split.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_split.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strchr.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strchr.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strchr.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strdup.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strdup.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strdup.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_striteri.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_striteri.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_striteri.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strjoin.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strjoin.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strjoin.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlcat.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strlcat.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlcat.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlcpy.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strlcpy.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlcpy.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlen.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strlen.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlen.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strmapi.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strmapi.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strmapi.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strncmp.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strncmp.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strncmp.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strnstr.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strnstr.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strnstr.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strrchr.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strrchr.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strrchr.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strtrim.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_strtrim.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strtrim.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_substr.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_substr.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_substr.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_tolower.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_tolower.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_tolower.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_toupper.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/Libft/libft/ft_toupper.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_toupper.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/Libft/libft
+
+build CMakeFiles/Libft.dir/Common_Core/FT_Printf/ft_printf.c.o: C_COMPILER__Libft_unscanned_Debug /home/joao-alm/42_School/Common_Core/FT_Printf/ft_printf.c || cmake_object_order_depends_target_Libft
+  DEFINES = -DLibft_EXPORTS
+  DEP_FILE = CMakeFiles/Libft.dir/Common_Core/FT_Printf/ft_printf.c.o.d
+  FLAGS = -g -fPIC -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Libft.dir
+  OBJECT_FILE_DIR = CMakeFiles/Libft.dir/Common_Core/FT_Printf
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 42_School
+# Link build statements for SHARED_LIBRARY target Libft
 
 
 #############################################
-# Link the executable 42_School
+# Link the shared library libLibft.so
 
-build 42_School: C_EXECUTABLE_LINKER__42_School_Debug CMakeFiles/42_School.dir/main.c.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/42_School.dir
+build libLibft.so: C_SHARED_LIBRARY_LINKER__Libft_Debug CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_atoi.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_bzero.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_calloc.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isalnum.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isalpha.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isascii.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isdigit.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_isprint.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_itoa.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstadd_back_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstadd_front_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstclear_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstdelone_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstiter_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstlast_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstmap_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstnew_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_lstsize_bonus.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memchr.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memcmp.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memcpy.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memmove.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_memset.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putchar_fd.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putendl_fd.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putnbr_fd.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_putstr_fd.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_split.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strchr.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strdup.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_striteri.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strjoin.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlcat.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlcpy.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strlen.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strmapi.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strncmp.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strnstr.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strrchr.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_strtrim.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_substr.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_tolower.c.o CMakeFiles/Libft.dir/Common_Core/Libft/libft/ft_toupper.c.o CMakeFiles/Libft.dir/Common_Core/FT_Printf/ft_printf.c.o
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Libft.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/42_School.dir/
-  TARGET_FILE = 42_School
-  TARGET_PDB = 42_School.pdb
+  SONAME = libLibft.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = libLibft.so
+  TARGET_PDB = Libft.so.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target FT_Printf
+
+
+#############################################
+# Order-only phony target for FT_Printf
+
+build cmake_object_order_depends_target_FT_Printf: phony || .
+
+build CMakeFiles/FT_Printf.dir/Common_Core/FT_Printf/ft_printf.c.o: C_COMPILER__FT_Printf_unscanned_Debug /home/joao-alm/42_School/Common_Core/FT_Printf/ft_printf.c || cmake_object_order_depends_target_FT_Printf
+  DEP_FILE = CMakeFiles/FT_Printf.dir/Common_Core/FT_Printf/ft_printf.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/FT_Printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/FT_Printf.dir/Common_Core/FT_Printf
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target FT_Printf
+
+
+#############################################
+# Link the static library libFT_Printf.a
+
+build libFT_Printf.a: C_STATIC_LIBRARY_LINKER__FT_Printf_Debug CMakeFiles/FT_Printf.dir/Common_Core/FT_Printf/ft_printf.c.o
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/FT_Printf.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libFT_Printf.a
+  TARGET_PDB = FT_Printf.a.dbg
 
 
 #############################################
@@ -100,6 +432,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build FT_Printf: phony libFT_Printf.a
+
+build Libft: phony libLibft.so
+
 # =============================================================================
 # Folder targets.
 
@@ -108,7 +444,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/joao-alm/42_School/cmake-build-debug
 
-build all: phony 42_School
+build all: phony libLibft.so libFT_Printf.a
 
 # =============================================================================
 # Built-in targets
@@ -117,14 +453,14 @@ build all: phony 42_School
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /home/joao-alm/42_School/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /home/joao-alm/42_School/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /home/joao-alm/42_School/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /home/joao-alm/42_School/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################

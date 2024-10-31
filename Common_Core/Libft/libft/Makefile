@@ -77,7 +77,7 @@ INCS    = ./
 NAME    = libft.a
 LIBC    = ar rc
 CC      = cc
-CFLAGS  = -Wall -Werror -Wextra -O3
+CFLAGS  = -Wall -Werror -Wextra -g
 RM      = rm -f
 
 # Color Codes
@@ -96,7 +96,7 @@ RESET = \033[0m
 # Link all object files into the library archive
 $(NAME): $(OBJS)
 	@echo "$(PINK)Creating library $(NAME)...$(RESET)"
-	$(LIBC) $@ $^
+	$(CC) $^
 
 ##############################################
 #               Main Commands                #

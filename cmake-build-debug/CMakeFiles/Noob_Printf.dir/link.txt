@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Noob_Printf.dir/Common_Core/Printf/noob_ft_printf/ft_put_characters.c.o CMakeFiles/Noob_Printf.dir/Common_Core/Printf/noob_ft_printf/ft_put_numbers.c.o CMakeFiles/Noob_Printf.dir/Common_Core/Printf/noob_ft_printf/ft_printf.c.o -o Noob_Printf
